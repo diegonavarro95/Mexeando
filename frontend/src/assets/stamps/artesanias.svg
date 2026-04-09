@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="48" fill="#180B02"/>
+  <rect x="18" y="18" width="220" height="220" rx="38" fill="url(#bg)"/>
+  <circle cx="128" cy="100" r="58" fill="#FFF1D9" opacity="0.14"/>
+  <path d="M128 64L148 86L176 92L160 116L164 146L138 136L118 158L104 134L78 126L96 104L94 76L120 82L128 64Z" fill="#F4A300"/>
+  <path d="M88 176C102 162 114 156 128 156C142 156 154 162 168 176" stroke="#FFF3DC" stroke-width="10" stroke-linecap="round"/>
+  <path d="M104 120L118 130L128 118L138 130L152 120" stroke="#7D1A12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="220" text-anchor="middle" fill="#FFF3DC" font-size="20" font-family="Arial, sans-serif" font-weight="700">ARTESANIAS</text>
+  <defs>
+    <linearGradient id="bg" x1="128" y1="18" x2="128" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D8B75"/>
+      <stop offset="1" stop-color="#073B33"/>
+    </linearGradient>
+  </defs>
+</svg>
