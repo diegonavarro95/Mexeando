@@ -1,4 +1,4 @@
-# Frontend — La Ruta de la Garnacha
+# Frontend — Mexeando
 
 > React 18 + Vite + Tailwind CSS + PWA  
 > Interfaz principal para Turistas, Dueños de Negocio y Administradores.

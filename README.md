@@ -1,6 +1,6 @@
-# La Ruta de la Garnacha
+# Mexeando
 
-> **Progressive Web App** que conecta a turistas del Mundial FIFA 2026 con los micronegocios locales mexicanos certificados por el programa **Ola México**.  
+> **Progressive Web App** que conecta a turistas del Mundial FIFA 2026 con los micronegocios locales mexicanos.  
 > Hackathon Talent Land 2026 — Track: *Cancha justa en el mundial para los negocios turísticos locales*  
 > Equipo: **Abstractos F.C.**
 
@@ -22,7 +22,7 @@
 
 ## Descripción
 
-**La Ruta de la Garnacha** es una PWA accesible desde cualquier navegador vía código QR. Sus pilares principales son:
+**Mexeando** es una PWA accesible desde cualquier navegador vía código QR. Sus pilares principales son:
 
 - **Mapa inteligente** con algoritmo de scoring propio (*Índice Ola*)
 - **Asistente IA multilingüe** disponibilidad multilingüe (Gemini Flash)
@@ -103,18 +103,17 @@ la-ruta-de-la-garnacha/
 ├── backend/                    # Node.js 20 + Hono + TypeScript
 │   ├── src/
 │   │   ├── routes/             # Endpoints REST organizados por recurso
-│   │   │   ├── auth.ts
-│   │   │   ├── businesses.ts
-│   │   │   ├── reviews.ts
-│   │   │   ├── passport.ts     # Lógica de puntos y estampas
-│   │   │   ├── translate.ts
-│   │   │   └── admin.ts
+│   │   │   ├── r-auth.ts
+│   │   │   ├── r-businesses.ts   # Lógica de negocios
+│   │   │   ├── r-reviews.ts      
+│   │   │   ├── r-passport.ts     # Lógica de puntos y estampas
+│   │   │   ├── r-translate.ts    # Lógica de traduccion
+│   │   │   └── r-admin.ts
 │   │   ├── middleware/         # Auth JWT, rate limiting, RBAC
 │   │   ├── services/           # Lógica de negocio desacoplada
-│   │   │   ├── indiceOla.ts    # Algoritmo de scoring
-│   │   │   ├── stamps.ts       # Sistema de probabilidad garantizada
-│   │   │   ├── ai.ts           # Gemini + onboarding
-│   │   │   └── translation.ts  # DeepL
+│   │   │   ├── s-passport.ts       # Sistema de probabilidad garantizada
+│   │   │   ├── s-assistant.ts           # Gemini + onboarding
+│   │   │   └── s-translation.ts  # DeepL
 │   │   ├── workers/            # Jobs de BullMQ
 │   │   ├── db/                 # Queries y tipos de Supabase
 │   │   ├── lib/                # Redis, clientes externos
@@ -123,11 +122,6 @@ la-ruta-de-la-garnacha/
 │   ├── tsconfig.json
 │   ├── package.json
 │   └── README.md
-│
-├── .github/
-│   └── workflows/
-│       ├── frontend-deploy.yml
-│       └── backend-deploy.yml
 │
 ├── docs/                       # Documentación del proyecto
 │   ├── TECH_STACK.md
