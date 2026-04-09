@@ -1,8 +1,8 @@
 # Mexeando
 
-> **Progressive Web App** que conecta a turistas del Mundial FIFA 2026 con los micronegocios locales mexicanos.  
-> Hackathon Talent Land 2026 — Track: *Cancha justa en el mundial para los negocios turísticos locales*  
-> Equipo: **Abstractos F.C.**
+> Plataforma web instalable (PWA) que conecta turistas del evento deportivo 2026 con micronegocios locales. Integra geolocalización, un
+> "Pasaporte de Barrio" gamificado con insignias virales, y un asistente de IA (Gemini) que rompe la brecha generacional permitiendo a los
+> locales un registro sin fricción y métricas de impacto automáticas. No visites México. Vívelo.
 
 ---
 
